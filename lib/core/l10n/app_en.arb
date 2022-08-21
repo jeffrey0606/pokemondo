@@ -1,0 +1,83 @@
+{
+  "helloWorld": "Hello World {username}!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting",
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "dark": "Dark Theme",
+  "@dark": {
+    "description": ""
+  },
+  "fr": "French",
+  "@fr": {
+    "description": ""
+  },
+  "en": "English",
+  "@en": {
+    "description": ""
+  },
+  "light": "Light Theme",
+  "@light": {
+    "description": ""
+  },
+  "favourites": "Favourites",
+  "@favourites": {
+    "description": ""
+  },
+  "allPokemons": "All Pokemons",
+  "@allPokemons": {
+    "description": ""
+  },
+  "height": "Height",
+  "@height": {
+    "description": ""
+  },
+  "weight": "Weight",
+  "@weight": {
+    "description": ""
+  },
+  "bmi": "BMI",
+  "@bmi": {
+    "description": ""
+  },
+  "baseStats": "Base Stats",
+  "@baseStats": {
+    "description": ""
+  },
+  "attack": "Attack",
+  "@attack": {
+    "description": ""
+  },
+  "defense": "Defense",
+  "@defense": {
+    "description": ""
+  },
+  "specialAttack": "Special Attack",
+  "@specialAttack": {
+    "description": ""
+  },
+  "specialDefense": "Special Defense",
+  "@specialDefense": {
+    "description": ""
+  },
+  "speed": "Speed",
+  "@speed": {
+    "description": ""
+  },
+  "avgPower": "Avg. Power",
+  "@avgPower": {
+    "description": ""
+  },
+  "removeFromFav": "Remove from favourites",
+  "@removeFromFav": {
+    "description": ""
+  },
+  "addToFav": "Mark as favourite",
+  "@addToFav": {
+    "description": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "helloWorld": "Salut le monde {username}!",
+  "dark": "Sombre Thème",
+  "light": "Lumière Thème",
+  "favourites": "Favoris",
+  "allPokemons": "Tous les Pokémon",
+  "height": "Hauteur",
+  "weight": "Poids",
+  "bmi": "IMC",
+  "baseStats": "Statistiques de Base",
+  "attack": "Attaque",
+  "defense": "Défense",
+  "specialAttack": "Attaque Spéciale",
+  "specialDefense": "Défense Spéciale",
+  "speed": "Rapidité",
+  "avgPower": "Moy. Du pouvoir",
+  "removeFromFav": "Supprimer des favoris",
+  "addToFav": "Marquer comme favori",
+  "fr": "Français",
+  "en": "Anglais"
+}
