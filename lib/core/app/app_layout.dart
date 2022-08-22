@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:pokemondo/core/ads/ads_state.dart';
+import 'package:pokemondo/core/widgets/my_banner_ad.dart';
 import 'package:pokemondo/features/pokemon/presentation/widgets/show_dialog.dart';
 
 import '../../features/pokemon/presentation/favourites_bloc/bloc/favourites_bloc.dart';
@@ -155,6 +157,10 @@ class AppLayoutState extends State<AppLayout>
           ),
         ),
       ),
+      // bottomSheet: Container(
+      //   height: 50,
+      // ),
+      bottomNavigationBar: MyBannarAd(adUnit: AdState.homePageAdUnitId),
       floatingActionButton: Material(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50),

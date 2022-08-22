@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'core/app/app.dart';
 import 'core/app_lang/app_lang_widget.dart';
@@ -17,6 +18,7 @@ void main() async {
   FlutterNativeSplash.remove();
   await initServices();
   await StoredConfigs.initBeforeRunApp();
+  MobileAds.instance.initialize();
   runApp(
     const SplashScreen(
       myApp: MyApp(),

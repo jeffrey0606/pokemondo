@@ -1,6 +1,7 @@
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 import 'package:internet_connection_checker/internet_connection_checker.dart';
+import 'package:pokemondo/core/ads/ads_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'core/network/network_info.dart';
@@ -103,8 +104,9 @@ Future<void> initServices() async {
 
   serviceLocator.registerLazySingleton(() => http.Client());
 
-  serviceLocator.registerLazySingleton(() => InternetConnectionChecker.createInstance(
-    checkTimeout: const Duration(seconds: 1),
-    checkInterval: const Duration(seconds: 1),
-  ));
+  serviceLocator
+      .registerLazySingleton(() => InternetConnectionChecker.createInstance(
+            checkTimeout: const Duration(seconds: 1),
+            checkInterval: const Duration(seconds: 1),
+          ));
 }

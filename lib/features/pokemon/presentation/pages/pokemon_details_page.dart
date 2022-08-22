@@ -1,5 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:pokemondo/core/ads/ads_state.dart';
+import 'package:pokemondo/core/widgets/my_banner_ad.dart';
 import '../widgets/base_stats_title.dart';
 import '../widgets/display_pokemon_property.dart';
 import '../widgets/favourite_button.dart';
@@ -59,6 +61,7 @@ class PokemonDetailsPage extends StatelessWidget {
         ),
       ),
       floatingActionButton: FavouriteButton(pokemon: pokemon),
+      bottomNavigationBar: MyBannarAd(adUnit: AdState.detailsPageAdUnitId),
     );
   }
 
