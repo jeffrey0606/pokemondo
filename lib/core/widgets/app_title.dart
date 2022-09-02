@@ -14,7 +14,7 @@ class AppTitle extends StatelessWidget {
           height: 24,
           width: 24,
           child: Image.asset(
-            "assets/images/pokeball.png",
+            "assets/images/logo.png",
           ),
         ),
         const SizedBox(
