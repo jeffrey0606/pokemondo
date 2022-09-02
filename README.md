@@ -1,9 +1,10 @@
 # Pokemondo
-![pokeball](https://user-images.githubusercontent.com/52233891/185772489-b1d62ef9-4d9b-4929-a96b-8c3f3a7ab3be.png)
+![icon-192](https://user-images.githubusercontent.com/52233891/188135068-b8b4ce77-b8fb-493b-b995-708848d33e4b.png)
+
 
 A Flutter project to learn more about the Pokemon's world and can also serve as good practice reference for other flutter projects.
 
-![Pokemon Pokemondo](https://user-images.githubusercontent.com/52233891/185772465-343d6906-6d5b-40e8-b4fb-ae81a1671b51.png)
+![Pokemon Pokemondo](https://user-images.githubusercontent.com/52233891/188135722-4765b729-49ad-4784-b93b-3887a533a9a2.png)
 
 ## Run Project Instructions
 1. download or clone the repository
